@@ -41,6 +41,6 @@ public class Tests {
         eerste.add(Siccomode);
         eerste.add(HutsANiffau);
         main.setArlis(eerste);
-        Assert.assertEquals("De laatste",main.getArlis().get(0).getArraylist2s().get(1).getInvoer2());
+        Assert.assertEquals("De laatste",main.getArlis().get(1).getArraylist2s().get(1).getInvoer2());
     }
 }
